@@ -227,10 +227,13 @@ registerShortcut("Mudeer Half Left", prefix + "Half Left", "Meta+Shift+z", funct
 registerShortcut("Mudeer Three-Quarters Left", prefix + "Three-Quarters Left", "Meta+Shift+x", function () {
     move(workspace, 4, 0, 3, 0)
 })
-registerShortcut("Mudeer Three-Quarters Right", prefix + "Three-Quarters Right", "Meta+Shift+c", function () {
+registerShortcut("Mudeer Three-Quarters Center", prefix + "Three-Quarters Center", "Meta+Shift+c", function () {
+    move(workspace, 8, 1, 6, 0)
+})
+registerShortcut("Mudeer Three-Quarters Right", prefix + "Three-Quarters Right", "Meta+Shift+v", function () {
     move(workspace, 4, 1, 3, 0)
 })
-registerShortcut("Mudeer Half Right", prefix + "Half Right", "Meta+Shift+v", function () {
+registerShortcut("Mudeer Half Right", prefix + "Half Right", "Meta+Shift+b", function () {
     move(workspace, 4, 2, 2, 0)
 })
 
